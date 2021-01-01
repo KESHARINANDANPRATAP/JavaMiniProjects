@@ -1,7 +1,7 @@
 # JavaProject
 Image Encryption and Decryption , Sound Recorder , Screenshot using Java libraries
 ########################################################################################
-Image Encryption and Decryption Project
+Image Encryption and Decryption Project           CLASS NAME:-ImageOperation.class
 ----------------------------------------
 1. Creating an instance of "Cipher" object and setting the mode of Encryption (Eg: AES, DES)
 
@@ -55,7 +55,7 @@ NOTE: YOU MUST USE THE SAME KEY GENERATED WHICH WAS USED FOR ENCRYPTING. OTHERWI
 Now, we can use a CipherInputStream object to read the Encrypted image. Since, we have set the mode to decryption, the CipherInputStream would basically decrypt as it reads from the Encrypted image.
 ##################################################################################################################################################################################################################################################################################################################################################################
 #################################################################################################################################################################################
-Sound Recorder Project
+Sound Recorder Project     CLASS NAME:-JavaSoundRecorder.class
 ####################
 The package javax.sound.sampled.* is a part of Java Sound API which contains interfaces and classes that are dedicated for processing sampled audio by Java programming language.
 Here are the typical steps to capture and record sound into a WAV file:
@@ -93,8 +93,8 @@ Finished
 And check if the file RecordAudio.wav created under E:/Test directory and play it back.
 ##################################################################################################################################################################################################################################################################################################################################################################
 #################################################################################################################################################################################
-Screenshot using Java Project
-###############################
+Screenshot using Java Project    CLASS NAME:-Screenshot.class
+############################### 
 In this program we will see how we can take screenshots using a java program and save the screenshot in desired folder.
 We use java.awt.Robot class to capture pixels of screen. It provides method like createScreenCapture which captures the current screen. This method returns captured image as BufferedImage object which can be saved as a file. It also uses ImageIO to save it as PNG image format. Toolkit.getDefaultToolkit().getSize() method is used to get the size of screen.
 The serialVersionUID is universal version identifier for Serializable class. Thread is used so that after executing the program we can switch to the screen we want to take screenshot of. 120s is the time in seconds i.e. 2 mins.
